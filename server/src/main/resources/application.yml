@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    include: local
+
+server:
+  servlet:
+    encoding:
+      force-response: true  # UTF-8
